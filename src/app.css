@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flexStack {
+	@apply flex flex-col items-center;
+}
